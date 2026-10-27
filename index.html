@@ -25,18 +25,28 @@ ol.tl{border-left:3px solid var(--acc);margin-left:6px;padding-left:20px}ol.tl l
 footer{border-top:1px solid var(--line);color:var(--mut);font-size:.85rem;max-width:960px;margin:0 auto;padding:16px 20px}
 @media(max-width:560px){.lbl{width:90px}h1{font-size:1.5rem}}
 @media print{header{position:static}nav{display:none}a{color:inherit}a[href^="/"]::after{content:""}.card,.pending{break-inside:avoid}h2{break-after:avoid}}
-</style></head><body><a class="skip" href="#main">Skip to content</a><header><div class="bar"><a class="mark" href="./">Bright<span>Move</span></a><nav aria-label="Main"><ul><li><a href="./" aria-current="page">Home</a></li><li><a href="entry-1/">Entry 1</a></li><li><a href="entry-2/">Entry 2</a></li><li><a href="how-we-measure/">How we measure</a></li></ul></nav></div></header><main id="main"><h1>BrightMove: evidence for the 2027 Stevie Awards entries</h1>
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:12px 0}
+.fig{border:1px solid var(--line);border-top:4px solid var(--acc);border-radius:6px;padding:12px 14px;background:#fff}
+.fig .v{font-size:1.9rem;font-weight:700;line-height:1.1}.fig .k{font-weight:600;margin:.2em 0}.fig .d{font-size:.85rem;color:var(--mut)}
+.fig.alt{border-top-color:#5b6b78}
+.shot{border:1px solid var(--line);border-radius:6px;margin:14px 0;padding:12px;background:var(--soft)}
+.shot .tag{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);font-weight:700}
+.shot img{max-width:100%;height:auto;border:1px solid var(--line);background:#fff}
+.cap2{font-size:.85rem;color:var(--mut)}.cap2 dt{font-weight:600;color:var(--ink);float:left;clear:left;margin-right:6px}.cap2 dd{margin:0 0 2px}
+.stamp{font-size:.85rem;color:var(--mut);font-style:italic}
+</style></head><body><a class="skip" href="#main">Skip to content</a><header><div class="bar"><a class="mark" href="./">Bright<span>Move</span></a><nav aria-label="Main"><ul><li><a href="./" aria-current="page">Home</a></li><li><a href="entry-1/">Entry 1</a></li><li><a href="entry-2/">Entry 2</a></li><li><a href="how-we-measure/">How the figures are measured</a></li></ul></nav></div></header><main id="main"><h1>BrightMove: evidence for the 2027 Stevie Awards entries</h1>
 <p class="lede">BrightMove is a cloud-based applicant tracking system (ATS) and talent acquisition platform for staffing agencies, HR teams, PEOs and RPO providers. As a standalone ATS, its customers' success depends on integrations and on the support behind them. BrightMove earned Indeed Platinum ATS Partner status in Q4 2025.</p>
 <div class="grid"><div class="card"><h2 style="border:0;margin:0;padding:0"><a href="entry-1/">Entry 1: Best Customer Feedback Strategy</a></h2><p>BrightMove Customer Feedback Loop: how customers give feedback, how every negative score is reviewed weekly, and how the loop reaches the product.</p></div>
-<div class="card"><h2 style="border:0;margin:0;padding:0"><a href="entry-2/">Entry 2: Human-Centered AI Innovation of the Year</a></h2><p>BrightMove Wiz and Support Team: an AI agent that extends support to every hour while people own every other interaction and audit the AI weekly.</p></div></div>
+<div class="card"><h2 style="border:0;margin:0;padding:0"><a href="entry-2/">Entry 2: Human-Centered AI Innovation of the Year</a></h2><p>BrightMove Wiz and Support Team: an AI agent that extends first-line support to every hour, with people taking over escalations and auditing the AI weekly.</p></div></div>
 <h2>The support model in one view</h2>
-<div class="tw"><table><thead><tr><th scope="col">Tier</th><th scope="col">Who</th><th scope="col">Hours</th><th scope="col">Response target</th></tr></thead><tbody>
-<tr><td>1</td><td>Wiz, an AI agent built on Intercom Fin</td><td>24/7, 365 days a year (168 h/week)</td><td>Instant</td></tr>
-<tr><td>2</td><td>BrightMove's support team (human agents)</td><td>Mon–Fri, 8:30 AM–5:30 PM Eastern (45 h/week)</td><td>Under 2 hours</td></tr>
-<tr><td>3</td><td>Engineering</td><td>Escalated by the support team</td><td>Under 24 hours</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th scope="col">Tier</th><th scope="col">Who</th><th scope="col">Handles</th><th scope="col">Hours</th><th scope="col">Response target</th></tr></thead><tbody>
+<tr><td>1</td><td>Wiz, an AI agent built on Intercom Fin</td><td>Common questions</td><td>24/7, 365 days a year (168 h/week)</td><td>Instant</td></tr>
+<tr><td>2</td><td>BrightMove's support team (human agents)</td><td>Escalated and relationship-sensitive issues</td><td>Mon–Fri, 8:30 AM–5:30 PM Eastern (45 h/week)</td><td>Under 2 hours</td></tr>
+<tr><td>3</td><td>Engineering</td><td>Bugs and integration failures</td><td>—</td><td>Under 24 hours</td></tr></tbody></table></div>
 <figure class="week" aria-labelledby="wk"><figcaption id="wk"><b>Hours of first-line support coverage in a 168-hour week</b></figcaption>
 <div class="row"><span class="lbl">Human agents</span><div class="track" role="img" aria-label="45 of 168 hours, about 27 percent of the week"><div class="fill h"></div></div><span>45 h</span></div>
 <div class="row"><span class="lbl">Wiz (AI agent)</span><div class="track" role="img" aria-label="168 of 168 hours, the full week"><div class="fill w"></div></div><span>168 h</span></div>
 <p class="cap">Human agents: Monday to Friday, 8:30 AM to 5:30 PM Eastern (5 days × 9 hours = 45 hours). Wiz: 24 hours × 7 days = 168 hours, 365 days a year. <b>Supports:</b> the Entry 2 reach claim.</p></figure>
 <p><b>Self-service:</b> LightHub, BrightMove's knowledge base, organized around the recruiter workflow: Source, Engage, Track.</p>
-<p class="metric">Dashboard figures were captured on <span class="pending">[PENDING: SUBMISSION DATE]</span>; date ranges and filters are visible in each screenshot.</p></main><footer>Supporting materials for BrightMove's entries in the 2027 Stevie Awards for Sales &amp; Customer Service. Definitions, filters and date ranges: <a href="how-we-measure/">How the figures are measured</a>.</footer></body></html>
+<p class="metric">All figures cover Oct 1, 2025 – Sep 30, 2026 (New York time). Dashboard figures were captured on Oct 27, 2026 and will be recaptured on <span class="pending">[PENDING: SUBMISSION DATE]</span>; date ranges and filters are visible in each original screenshot.</p></main><footer>Supporting materials for BrightMove's entries in the 2027 Stevie Awards for Sales &amp; Customer Service. Definitions, filters and date ranges: <a href="how-we-measure/">How the figures are measured</a>.</footer></body></html>
