@@ -41,9 +41,15 @@ footer{border-top:1px solid var(--line);color:var(--mut);font-size:.85rem;max-wi
 <h2>CX score (headline measure)</h2><p>An AI-inferred score from 1 to 5 assigned to closed customer conversations. It requires no action from the customer. Scores of 4–5 count as positive. CX percentage = conversations scored 4–5 ÷ conversations with a CX score.</p>
 <h2>CSAT (cross-check)</h2><p>A voluntary 1–5 star rating offered at the end of the same chat. Ratings of 4–5 count as positive. The overall CSAT figure includes ratings on Wiz-handled conversations; Wiz CSAT and teammate CSAT are also shown separately.</p>
 <h2>Why CX is the headline</h2><p>CX covers far more conversations than CSAT, because it needs no customer action. CSAT is the cross-check. Sample sizes: CX 3,272 conversations with a CX score (3,079 rated 4–5); CSAT <span class="pending">[PENDING: N ratings]</span>.</p>
-<h2 id="exclusions">What is excluded and why</h2>
+<h2 id="exclusions">The filter used for every figure</h2>
+<p>Every figure and screenshot on this site uses one filter, applied to Intercom conversations from Oct 1, 2025 to Sep 30, 2026 (New York time).</p>
+<ul><li><b>Source:</b> Intercom conversations in the date range above, New York time.</li>
+<li><b>Excluded:</b> conversations tagged Conversation: SPAM, Conversation: Testing, or Conversation: Non-LVE Related CX. The last tag marks account maintenance requests, such as user adds and setting changes, which are not customer-experience conversations.</li>
+<li><b>Result:</b> 4,840 conversations. No other filter is used anywhere on the site.</li></ul>
+<h3>What is excluded and why</h3>
 <div class="tw"><table><thead><tr><th scope="col">Filter</th><th scope="col">Excluded tags</th><th scope="col">Conversations in range</th><th scope="col">Used for</th></tr></thead><tbody>
-<tr><td><b>Site filter</b></td><td>SPAM; Testing; account maintenance (Intercom tag name: "Non-LVE Related CX")</td><td>4,840</td><td>Every figure on this site</td></tr>
+<tr><td><b>The filter (described above)</b></td><td>SPAM; Testing; account maintenance (Intercom tag name: "Non-LVE Related CX")</td><td>4,840</td><td>Every figure on this site</td></tr>
+</tbody></table></div>
 <ul><li><b>SPAM and Testing</b> conversations are not customer support conversations.</li>
 <li><b>Account maintenance conversations</b> (such as license changes) are tagged by the support team. In the window, 295 conversations carried this tag and are excluded from every figure on this site. They are reviewed separately each week and used to decide which maintenance tasks to make self-service.</li></ul>
 <div class="figs"><div class="fig"><div class="v">94.1%</div><div class="k">Overall CX</div><div class="d">Maintenance excluded; 4,840 conversations</div></div></div>
